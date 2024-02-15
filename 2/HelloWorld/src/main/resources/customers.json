@@ -1,0 +1,22 @@
+{
+  "customers": [
+    {
+    "id": 1,
+    "firstname": "Alan",
+    "lastname": "Turing",
+    "email": "alan.turing@gmail.com"
+    },
+    {
+    "id": 2,
+    "firstname": "Grace",
+    "lastname": "Hopper",
+    "email": "ghp@gmail.com"
+    },
+    {
+      "id": 3,
+      "firstname": "Ada",
+      "lastname": "Lovelace",
+      "email": "adalove@gmail.com"
+    }
+  ]
+}

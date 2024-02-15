@@ -1,0 +1,40 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+
+h1 {
+    float: right;
+}
+img {
+    padding-left: 40%;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 75%;
+}
+
+.col-2{
+    display: flex;
+}
+
+.col-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+form{
+    display:grid;
+    grid-template-columns: max-content max-content;
+    gap: 5px;
+}
+label{
+    grid-column: 1/2;
+}
+
+input,button{
+    grid-column: 2/2;
+}

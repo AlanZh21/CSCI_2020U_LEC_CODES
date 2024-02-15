@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name = 'viewport' content="width=device-width, initial-scale=1.0"/>
+        <title>Hello World</title>
+        <link href="styles/main.css" rel="stylesheet"/>
+        <script src = "script/main.js"></script>
+    </head>
+    <body>
+        <img src="images/S351_Stage4.webp" width="15%" height="15%"/>  <br>
+        <h1>My first HTML page</h1>
+        <a href= "#name_table"><p>Some random paragraph</p></a>
+        <div class="col-2">
+            <ul>
+                <li>Marie</li>
+                <li>Marie</li>
+                <li>Marie</li>
+            </ul>
+            <ol>
+                <li>Marie</li>
+                <li>Marie</li>
+                <li>Marie</li>
+            </ol>
+        </div>
+        <table id = "name_table">
+            <tr>
+                <th>First Name</th>
+                <th>Second Name</th>
+            </tr>
+            <tr>
+                <td>Alan</td>
+                <td>Zheng</td>
+            </tr>
+            <tr>
+                <td>Takeru</td>
+                <td>Shirogane</td>
+            </tr>
+        </table>
+        <form>
+            <label for="fname">Enter</label><!--br-->
+            <input type="text" id="fname" placeholder="Enter first name:"><!--br-->
+            <label for="lname">Enter</label><!--br-->
+            <input type="text" id="lname" placeholder="Enter last name:"><!--br-->
+
+            <button type="button" onclick="onFormClick()">Enter</button>
+        </form>
+        <div id="form-display"></div>
+        <!--script>
+            function onFormClick(){
+                //document.querySelector("form").style.background = "lavender";
+                if (document.querySelector("form").style.background == "lavender"){
+                    document.querySelector("form").style.background = "lime";
+                }
+                else{
+                    document.querySelector("form").style.background = "lavender";
+                }
+            }
+        </script-->
+    </body>
+</html>
